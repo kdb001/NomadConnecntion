@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Param Test</title>
+    <script src="useScript/jquery-3.2.1.min.js"></script>
+        
+    <script >
+
+    var urlParams = location.search.split(/[?&]/).slice(1).map(function(paramPair) {
+        return paramPair.split(/=(.+)?/).slice(0, 2);
+    }).reduce(function(obj, pairArray) {
+        obj[pairArray[0]] = pairArray[1];
+        return obj;
+
+    }, {});
+	console.log(urlParams);
+	</script>
+
+  </head>
+<body>
+<div id="jsonParam"></div>
+</body>
+</html>
