@@ -1,0 +1,26 @@
+[
+	{"menuNm":"성과관리", "url":"", 
+		 "child": [
+					{"menuNm":"공지사항", "url":"",
+        	       	{"menuNm":"오늘 성과", "url":""},
+					{"menuNm":"금주 성과", "url":""},
+					{"menuNm":"이달 성과", "url":""}
+          ]
+     },
+     {"menuNm":"인력관리", "url":"",
+		 "child": [
+        	       	{"menuNm":"매니저/상담원 관리", "url":""},
+					{"menuNm":"상담원 근무배정", "url":""}
+          ]
+     },
+     {"menuNm":"상담현황", "url":"",
+		 "child": [
+        	       	{"menuNm":"상담현황", "url":""},
+					{"menuNm":"진행중 대화", "url":""},
+					{"menuNm":"읽지 않은 대화방", "url":""},
+					{"menuNm":"상담 종료", "url":""},
+					{"menuNm":"상담원 변경요청", "url":""},
+					{"menuNm":"상담내용 검토 요청", "url":""}
+          ]
+     }	
+]
